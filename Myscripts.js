@@ -14,7 +14,7 @@ document.getElementById("startButton").addEventListener("click", function() {
         
         if (seconds <= 0) {
             clearInterval(countdown);
-            alert("Your Time is up!!!");
+            alert("Time's up!");
             timerDisplay.textContent = "00:00";
         } else {
             seconds--;
